@@ -105,6 +105,7 @@ For each of these command examples, you will be prompted for your Virtual MFA de
 #### Role ARN Breakdown
 
 When you are granted access to a role that allows cross-account access the ARN will look like this: `arn:aws:iam::000000000000:role/role-name`. This includes two parts that are important for assuming that role through the console:
+
 1. Account number: `000000000000`
 1. Role name: `role-name`
 
